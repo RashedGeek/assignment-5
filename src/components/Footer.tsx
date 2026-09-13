@@ -67,7 +67,7 @@ modern software.
 
           {/* Company */}
           <div>
-            <h3 className="font-semibold text-gray-900">COMPANY</h3>
+            <h3 className="font-bold text-[#0F172A]">COMPANY</h3>
 
             <div className="mt-4 space-y-3">
               <a
