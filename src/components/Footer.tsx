@@ -93,7 +93,7 @@ modern software.
 
           {/* Legal */}
           <div>
-            <h3 className="font-semibold text-gray-900">LEGAL</h3>
+            <h3 className="font-bold text-[#0F172A]">LEGAL</h3>
 
             <div className="mt-4 space-y-3">
               <a
