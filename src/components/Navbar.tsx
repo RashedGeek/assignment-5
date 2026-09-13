@@ -1,7 +1,18 @@
+import hamburger from "../assets/hamburger.png";
 function Navbar() {
   return (
     <nav className="sticky top-0 z-50 bg-white border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+        <button
+  type="button"
+  className="md:hidden"
+>
+  <img
+    src={hamburger}
+    alt="Menu"
+    className="h-6 w-6"
+  />
+</button>
 
         {/* Brand */}
         <div className="flex items-center gap-2">
@@ -39,11 +50,11 @@ function Navbar() {
 
         {/* Auth buttons */}
         <div className="flex items-center gap-4">
-          <button className="text-gray-600">
+          <button className="text-gray-600 cursor-pointer">
             Sign In
           </button>
 
-          <button className="rounded-full bg-linear-to-r from-orange-500 via-pink-500 to-violet-600 px-5 py-2 text-sm font-medium text-white">
+          <button className="rounded-full bg-linear-to-r from-orange-500 via-pink-500 to-violet-600 px-5 py-2 text-sm font-medium text-white cursor-pointer">
             Sign Up
           </button>
         </div>
