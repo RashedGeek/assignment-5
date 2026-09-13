@@ -85,7 +85,7 @@ function App() {
         {/* Section heading */}
         <div className="mb-10">
           <h2 className="text-3xl font-bold">
-            Explore the Technologies
+            Explore the <span className="bg-linear-to-r from-orange-500 via-pink-500 to-violet-600 bg-clip-text text-transparent">Technologies</span>
           </h2>
 
           <p className="mt-2 text-gray-500">
